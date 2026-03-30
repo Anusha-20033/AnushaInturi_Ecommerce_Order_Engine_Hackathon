@@ -134,45 +134,6 @@ python main.py
 
 ---
 
-## 🖥️ CLI Menu
-
-```
-1. Add Product
-2. View Products
-3. Add to Cart
-4. Remove from Cart
-5. View Cart
-6. Place Order
-7. Cancel Order
-8. View Orders
-9. Low Stock Alert
-10. Simulate Concurrent Users
-11. View Logs
-0. Exit
-```
-
----
-
-## ⚠️ Edge Cases Handled
-
-* Duplicate product IDs are prevented
-* Stock cannot go negative
-* Payment failure triggers rollback
-* Prevents overselling using locks
-* Cannot cancel already cancelled orders
-* Duplicate order requests blocked (idempotency)
-
----
-
-## 📌 Future Improvements
-
-* Convert into REST API using Django/Flask
-* Add database integration (MySQL/PostgreSQL)
-* Implement real payment gateway
-* Build frontend UI using React
-
----
-
 ## 👩‍💻 Author
 
 **Anusha**
